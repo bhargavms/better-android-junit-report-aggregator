@@ -1,0 +1,13 @@
+[libraries]
+plugin-android-gradle = { module = "com.android.tools.build:gradle", version.ref = "version-plugin-agp" }
+plugin-kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "version-kotlin-stdlib" }
+
+[plugins]
+kotlin-lint-jlleitschuh = { id = "org.jlleitschuh.gradle.ktlint",  version = "11.5.1"}
+android-junit5-support = { id = "de.mannodermaus.android-junit5", version = "1.8.2.1" }
+documentation-dokka = { id = "org.jetbrains.dokka", version = "1.8.10" }
+
+
+[versions]
+version-kotlin-stdlib = "2.0.21"
+version-plugin-agp = "8.9.0"
