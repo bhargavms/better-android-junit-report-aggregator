@@ -133,7 +133,7 @@ This project is licensed under the Apache 2.0 - see the [LICENSE](LICENSE) file 
 
 ## Credits
 
-Developed by [Bhargav Srinivasan](https://github.com/bhargavms).
+Developed by [Bhargav Mogra](https://github.com/bhargavms).
 
 ## Similar Projects
 
