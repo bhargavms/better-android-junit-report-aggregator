@@ -36,10 +36,7 @@ repos:
         pass_filenames: false
         stages:
           - pre-commit
-  - repo: https://github.com/gitguardian/ggshield
-    rev: v1.25.0
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.18.0
     hooks:
-      - id: ggshield
-        language: python
-        stages: [ pre-commit ]
-        args: [ 'secret', 'scan', 'pre-commit' ]
+      - id: gitleaks

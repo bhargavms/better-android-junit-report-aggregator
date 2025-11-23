@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.3.1"
 }
 group = "io.github.bhargavms"
-version = "1.0.0"
+version = "1.1.0"
 
 configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
     version.set("0.43.2")
